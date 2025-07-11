@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Navbar from '../commponent/Navbar'
 const Home = () => {
   return (
-    <div>page</div>
+    <div className='bg-white max-w-screen '>
+      <Navbar />
+     </div>
   )
 }
 
